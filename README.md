@@ -1,4 +1,5 @@
-### Testing React with Jest and Enzyme
+### Testing React with Jest and Enzyme ⚛️🃏
+[![CI](https://app.buddy.works/enthudrives/testing-with-jest-enzyme/pipelines/pipeline/144354/badge.svg?token=7b6da1d472d6e77aaa941f8a4e986641684a55b81c653692c3423175ed7a3d68 "CI")](https://app.buddy.works/enthudrives/testing-with-jest-enzyme/pipelines/pipeline/144354)
 
 Tests should act as documentation. Hence, good unit tests do not test implementation details. Instead, they test behavior. 
 
