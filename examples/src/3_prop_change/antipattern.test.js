@@ -1,13 +1,16 @@
 import React from 'react';
 import App from './App';
 import {shallow} from "enzyme";
+import Factoid from "./Factoid";
 
-describe('antipattern - click event to update count', function () {
-    it('updates vote count in state', function () {
-        const wrapper = shallow(<App/>);
+describe('antipattern - check if compoenent has been updated when prop changes', function () {
+    it('displays the rating based on change in props', function () {
+        const wrapper = shallow(<Factoid rating={1}/>);
 
-        wrapper.find('button').simulate('click');
+        expect(wrapper.text()).toContain('This fact is rated at 1 out of 5');
 
-        expect(wrapper.state().vote).toEqual(2);
+        wrapper.setProps({rating: 3});
+
+        expect(wrapper.text()).toContain('This fact is rated at 3 out of 5');
     });
 });
