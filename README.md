@@ -18,7 +18,9 @@ Anti-patterns can be found in `antipattern.test.js` along side the `pattern.test
     2. [Check if a component with given text exists](examples/src/1_component_exists/pattern.test.js#L12)
 2. [Simulating action on a button](examples/src/2_click/pattern.test.js)
     1. [Check if the value has changed on screen](examples/src/2_click/pattern.test.js#L7)
-    2. [Check if the props to child component has changed](examples/src/2_click/pattern.test.js#L15)        
+    2. [Check if the props to child component has changed](examples/src/2_click/pattern.test.js#L15)
+3. [Testing change in props](examples/src/3_prop_change/pattern.test.js)
+    1. [Check if the DOM has been updated based on new prop](examples/src/3_prop_change/pattern.test.js#L6)
 
 ### Contributors
 Send a Pull Request with patterns you have found interesting when testing `React` code with `jest` and `enzyme`. You can also share some antipatterns you have come across. Please explain why you think of it as a pattern/anti-pattern in the commit message. 
