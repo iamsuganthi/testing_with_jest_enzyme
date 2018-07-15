@@ -14,6 +14,8 @@ This is a list of patterns and anti-patterns widely used when testing react appl
     2. [Check if the props to child component has changed](examples/src/2_click/pattern.test.js#L15)
 3. [Testing change in props](examples/src/3_prop_change/pattern.test.js)
     1. [Check if the DOM has been updated based on new prop](examples/src/3_prop_change/pattern.test.js#L6)
+4. [Testing if callback is called](examples/src/4_callback/pattern.test.js)
+    1. [Check if the callback is called when an action is performed](examples/src/4_callback/pattern.test.js#L6)
 
 #### Anti-patterns:
 1. [Verifying state](examples/src/2_click/antipattern.test.js#L7)
