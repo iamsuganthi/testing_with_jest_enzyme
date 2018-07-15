@@ -14,5 +14,5 @@ Send a Pull Request with patterns you have found interesting when testing `React
     1. [Check if a given component exists](examples/src/1_component_exists/App.test.js#:6)
     2. [Check if a component with given text exists](examples/src/1_component_exists/App.test.js#L12)
 2. [Simulating action on a button](examples/src/2_click/App.test.js)
-    1. [Check if the value has changed on screen](examples/src/2_click/App.test.js)
-    2. [Check if the props to child component has changed](examples/src/2_click/App.test.js)        
+    1. [Check if the value has changed on screen](examples/src/2_click/App.test.js#L7)
+    2. [Check if the props to child component has changed](examples/src/2_click/App.test.js#L15)        
