@@ -23,4 +23,6 @@ Anti-patterns can be found in `antipattern.test.js` along side the `pattern.test
 #### Contributors
 Send a Pull Request with patterns you have found interesting when testing `React` code with `jest` and `enzyme`. You can also share some antipatterns you have come across. Please explain why you think of it as a pattern/anti-pattern in the commit message. 
 
-If you have any comments on the patterns/anti-patterns listed here, feel free to leave a comment. Let's chat about it :) 
+If you have any feature requests, please create an issue in this repository.
+
+If you have any comments on the patterns/anti-patterns listed here, feel free to leave a comment. Let's chat about it 😊
