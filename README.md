@@ -9,8 +9,7 @@ Please share more examples with a commit message describing why they are antipat
 
 #### Some common scenarios tested in components:
 1. [Check if a component exists](examples/src/1_component_exists/App.test.js)
-..1. [Check if a given component exists](examples/src/1_component_exists/App.test.js#:6)
-..2. [Check if a component with given text exists](examples/src/1_component_exists/App.test.js#L12)
-
+    1. [Check if a given component exists](examples/src/1_component_exists/App.test.js#:6)
+    2. [Check if a component with given text exists](examples/src/1_component_exists/App.test.js#L12)
 2. [On clicking a button](examples/src/2_click/App.test.js)
-..1. [Check if the value has changed on screen](examples/src/2_click/App.test.js)
+    1. [Check if the value has changed on screen](examples/src/2_click/App.test.js)
