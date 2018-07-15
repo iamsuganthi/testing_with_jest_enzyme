@@ -5,7 +5,7 @@ Unit tests are written to verify the functionality of "units" (small pieces) of 
 
 This is a list of patterns and anti-patterns widely used when testing react applications. 
 
-#### Some common scenarios tested in components:
+#### Patterns:
 1. [Check if a component exists](examples/src/1_component_exists/pattern.test.js)
     1. [Check if a given component exists](examples/src/1_component_exists/pattern.test.js#:6)
     2. [Check if a component with given text exists](examples/src/1_component_exists/pattern.test.js#L12)
@@ -14,6 +14,11 @@ This is a list of patterns and anti-patterns widely used when testing react appl
     2. [Check if the props to child component has changed](examples/src/2_click/pattern.test.js#L15)
 3. [Testing change in props](examples/src/3_prop_change/pattern.test.js)
     1. [Check if the DOM has been updated based on new prop](examples/src/3_prop_change/pattern.test.js#L6)
+
+#### Anti-patterns:
+1. [Verifying state](examples/src/2_click/antipattern.test.js#L7)
+2. [Modifying state from test](examples/src/2_click/antipattern.test.js#16)
+3. [Modifying props from test](examples/src/3_prop_change/antipattern.test.js)
 
 ### Conventions in this repository:
 Examples could be found in the `examples/src` folder. They are grouped by test behavior.
