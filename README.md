@@ -20,7 +20,7 @@ Anti-patterns can be found in `antipattern.test.js` along side the `pattern.test
     1. [Check if the value has changed on screen](examples/src/2_click/pattern.test.js#L7)
     2. [Check if the props to child component has changed](examples/src/2_click/pattern.test.js#L15)        
 
-#### Contributors
+### Contributors
 Send a Pull Request with patterns you have found interesting when testing `React` code with `jest` and `enzyme`. You can also share some antipatterns you have come across. Please explain why you think of it as a pattern/anti-pattern in the commit message. 
 
 If you have any feature requests, please create an issue in this repository.
