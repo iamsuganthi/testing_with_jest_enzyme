@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const Factoid = () => {
-
+    return 'Factoid'
 };
 
 export default Factoid;

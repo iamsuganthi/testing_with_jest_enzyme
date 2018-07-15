@@ -7,7 +7,7 @@ class App extends Component {
             <div>
                 <h1 className="App-title">Testing with Jest & Enzyme</h1>
                 <Factoid/>
-                <button content='Vote!'/>
+                <button>Vote!</button>
             </div>
         );
     }
