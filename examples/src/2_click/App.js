@@ -18,7 +18,7 @@ class App extends Component {
             <div>
                 <h1 className="App-title">Testing with Jest & Enzyme</h1>
                 <div className="number-of-votes">{this.state.vote}</div>
-                <Factoid/>
+                <Factoid rating={this.state.vote}/>
                 <button onClick={this.incrementVote}>Vote!</button>
             </div>
         );
