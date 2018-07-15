@@ -25,4 +25,4 @@ Send a Pull Request with patterns you have found interesting when testing `React
 
 If you have any feature requests, please create an issue in this repository.
 
-If you have any comments on the patterns/anti-patterns listed here, feel free to leave a comment. Let's chat about it 😊
+If you have any comments on the patterns/anti-patterns listed here, let's discuss in comments 😊
