@@ -1,16 +1,9 @@
 ### Testing React with Jest and Enzyme ⚛️🃏
 [![CI](https://app.buddy.works/enthudrives/testing-with-jest-enzyme/pipelines/pipeline/144354/badge.svg?token=7b6da1d472d6e77aaa941f8a4e986641684a55b81c653692c3423175ed7a3d68 "CI")](https://app.buddy.works/enthudrives/testing-with-jest-enzyme/pipelines/pipeline/144354)
 
-Tests should act as documentation. Hence, good unit tests do not test implementation details. Instead, they test behavior. 
+Unit tests are written to verify the functionality of "units" (small pieces) of code. Hence, good unit tests do not test implementation details. Instead, they should test the behavior of the code being tested.
 
-### Conventions:
-Examples could be found in the `examples/src` folder. They are grouped by test behavior.
-
-#### Patterns
-Patterns can be found in the `pattern.test.js` file. (I usually name tests after my component so that it is easy to understand)
-
-#### Anti-patterns
-Anti-patterns can be found in `antipattern.test.js` along side the `pattern.test.js`. 
+This is a list of patterns and anti-patterns widely used when testing react applications. 
 
 #### Some common scenarios tested in components:
 1. [Check if a component exists](examples/src/1_component_exists/pattern.test.js)
@@ -22,9 +15,18 @@ Anti-patterns can be found in `antipattern.test.js` along side the `pattern.test
 3. [Testing change in props](examples/src/3_prop_change/pattern.test.js)
     1. [Check if the DOM has been updated based on new prop](examples/src/3_prop_change/pattern.test.js#L6)
 
+### Conventions in this repository:
+Examples could be found in the `examples/src` folder. They are grouped by test behavior.
+
+#### Patterns
+Patterns can be found in the `pattern.test.js` file. (I usually name tests after my component so that it is easy to understand)
+
+#### Anti-patterns
+Anti-patterns can be found in `antipattern.test.js` along side the `pattern.test.js`. 
+
 ### Contributors
 Send a Pull Request with patterns you have found interesting when testing `React` code with `jest` and `enzyme`. You can also share some antipatterns you have come across. Please explain why you think of it as a pattern/anti-pattern in the commit message. 
 
-If you have any feature requests, please create an issue in this repository.
+If you have any feature requests, please create an *issue* in this repository.
 
 If you have any comments on the patterns/anti-patterns listed here, let's discuss in comments 😊
