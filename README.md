@@ -4,7 +4,7 @@ Tests should act as documentation.
 Hence, good unit tests do not test implementation. They test behavior. 
 
 #### Anti-patterns
-I have documented anti-patterns in antipattern.test.js along side the App.test.js. 
+I have documented anti-patterns in `antipattern.test.js` along side the `App.test.js`. 
 Please share more examples with a commit message describing why they are antipatterns.
 
 #### Some common scenarios tested in components:
